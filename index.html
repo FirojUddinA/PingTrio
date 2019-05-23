@@ -16,13 +16,14 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!--        uikit     -->
   <link rel="stylesheet" href="css/uikit.min.css" />
+  <link rel="stylesheet" href="css/navbar-fixed.css" />
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 <!--header-->
-<header>
+<header id="home">
   <!--Navbar-->
   <nav class="navbar navbar-expand-md fixed-top navbar-dark">
     <!--container-->
@@ -41,24 +42,24 @@
       <div class="collapse navbar-collapse" id="mainNav">
 
         <!-- Links -->
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto main-nav">
           <li class="nav-item active-nav">
-            <a class="nav-link" href="#">HOME</a>
+            <a class="nav-link" href="#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">EVENTS</a>
+            <a class="nav-link" href="#event">EVENTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">GALLERY</a>
+            <a class="nav-link" href="#gallery">GALLERY</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">MEDIA</a>
+            <a class="nav-link" href="#media">MEDIA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.facebook.com/profile.php?id=100011130030911">
@@ -91,7 +92,7 @@
 
 <!--carousal-->
 <!--Carousel Wrapper-->
-<div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-slider " class="carousel slide carousel-fade" data-ride="carousel">
   <!--Indicators-->
   <ol class="carousel-indicators">
     <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
@@ -143,7 +144,7 @@
 
 <!--carousal-->
  <!--events-->
-<section class="events">
+<section id="event" class="events">
   <div class="container py-5">
     <!-- Grid row -->
     <div class="row">
@@ -211,7 +212,7 @@
  <!--events-->
 
 <!-- ----about the band ---- -->
-<section class="about">
+<section id="about" class="about">
   <div class="container py-5">
     <!-- Grid row -->
        <div class="row">
@@ -249,7 +250,7 @@
 
 <!-- ---- band ---- -->
 
-<section class="brand  mdb-color lighten-5">
+<section  class="brand  mdb-color lighten-5">
   <div class="container py-5">
 
     <!-- Grid row -->
@@ -303,13 +304,14 @@
       </div>
     </div>
   </div>
+  </div>
 </section>
 
 <!-- ---- band ---- -->
 
 
 <!-- ----gallery  ---- -->
-<section class="gallery">
+<section id="gallery" class="gallery">
   <div class="container py-5">
     <!-- Grid row -->
        <div class="row">
@@ -399,7 +401,7 @@
 
 <!-- ----gallery  ---- -->
 <!-- ----video  ---- -->
-<section class="video ">
+<section id="media" class="video ">
   <div class="rgba-black-strong">
     <div class="container py-5 ">
       <!-- Grid row -->
@@ -475,7 +477,7 @@
 <!-- ----video  ---- -->
 
 <!-- ----video  ---- -->
-<section class="contact">
+<section id="contact" class="contact">
 
     <div class="container py-5 ">
       <!-- Grid row -->
@@ -685,6 +687,7 @@
 <!--        uikit     -->
 <script src="js/uikit.min.js"></script>
 <script src="js/uikit-icons.min.js"></script>
+<script src="js/navbar-fixed.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
 <!-- Google Maps settings -->

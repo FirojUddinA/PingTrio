@@ -1,4 +1,8 @@
-// MDB Lightbox Init
-$(function () {
-    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+$(document).ready(function () {
+
+    $('.main-nav').on('click','li',function () {
+        $('.main-nav li.active-nav').removeClass('active-nav');
+        $(this).addClass('active-nav')
+    });
+
 });
