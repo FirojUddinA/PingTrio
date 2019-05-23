@@ -34,9 +34,8 @@ nav {
 }
 nav .navbar-brand{}
 
-.navbar-nav .active{
-    background-color: #FF679B;
-    color: #FF679B !important;;
+.active-nav{
+    border-bottom:5px solid #FF679B ;
 }
 
 nav ul {}
@@ -107,3 +106,36 @@ nav ul li:hover a{
 
 
 /*          about              */
+/*          team1              */
+
+.card-o-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card-o-title{
+    position: absolute;
+    bottom: -4%;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+/*          team              */
+/*          gallery              */
+
+.gallery-image img{
+    max-height: 350px;
+    max-width: 500px;
+    
+}
+/*          gallery              */
+
+/*          video              */
+    .video{
+        background: url("../images/pintrio-vedio.jpg") no-repeat fixed center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+/*          video              */
